@@ -1,0 +1,26 @@
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+
+.gameboard {
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: grid;
+    width: 480px;
+    height: 480px;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    background-color: rgb(187, 173, 160);
+    border-radius: 3px;
+    border: 8px solid rgb(187, 173, 160);
+    &-wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: rgb(255, 255, 255);
+        border-radius: 3px;
+        color: rgb(255, 255, 255);
+        position: relative;
+        margin: 1rem;
+    }
+}
