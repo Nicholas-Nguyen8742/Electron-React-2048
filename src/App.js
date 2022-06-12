@@ -6,10 +6,10 @@ import DarkToggle from "./components/DarkToggle/DarkToggle";
 
 export default function App() {
   return (
-    <div className="container">
+    <main className="container">
       <DarkToggle />
       <Header />
       <InstructionsSection />
-    </div>
+    </main>
   );
 }

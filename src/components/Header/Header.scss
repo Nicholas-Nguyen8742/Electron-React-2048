@@ -2,47 +2,42 @@
 @use "../../styles/partials/mixins" as *;
 
 .header {
+  padding: 1rem;
   display: flex;
-
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 3px;
+  color: $Text-Bright;
+  width: 100%;
+  margin-top: 4px;
   &__logo {
     height: 5rem;
     width: 5rem;
   }
   &__scores {
     display: flex;
-    text-align: right;
-    width: 100%;
-    &-current,
-    &-best {
-      position: relative;
-      background: $BG-Cell;
-      padding: 15px 25px;
-      font-size: $height;
-      height: $height;
-      line-height: $height + 22px;
-      font-weight: bold;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    color: $Text-Bright;
+    &-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: $Color-Plus2048;
       border-radius: 3px;
-      color: white;
-      margin-top: 8px;
-      text-align: center;
-
-      &:after {
-        position: absolute;
-        width: 100%;
-        top: 10px;
-        left: 0;
-        text-transform: uppercase;
-        font-size: 13px;
-        line-height: 13px;
-        text-align: center;
-        color: $Tile-Color;
-      }
+      color: $Text-Bright;
+      position: relative;
+      box-sizing: border-box;
+      width: 92px;
+      padding-top: .5rem;
+      padding-bottom: .5rem;
+      margin-left: 1rem;
     }
-    &-current {
-        content: 'Score';
-    }
-    &-best {
-        content: 'Best';
+    &__title {
+      color: rgba($Text-Bright, .75);
     }
   }
 }
