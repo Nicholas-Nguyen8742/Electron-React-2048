@@ -1,5 +1,7 @@
 @use './partials/variables' as *;
 @use './partials/typography' as *;
+@use './partials/mixins' as *;
+
 
 
 *, ::before, ::after {
@@ -23,4 +25,8 @@ main {
 .container {
     width: $Field-Width;
     margin: 0 auto;
+}
+
+p {
+    @include P-Text;
 }
