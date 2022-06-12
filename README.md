@@ -1,6 +1,6 @@
 # 2048 Game w/ ReactJS & ElectronJS
 
-An electron wrapped react application for the game 2048 to be used as a cross-platform desktop application based off of the [2048](https://github.com/gabrielecirulli/2048) created by [Gabriele Circulli](https://github.com/gabrielecirulli) on the App Store. During my Web Development Bootcamp @ Brainstation, I played this game way too much during my breaks and maybe during lectures as well... 
+An [electron](https://www.electronjs.org/) wrapped [react](https://reactjs.org/) application for the game 2048 to be used as a cross-platform desktop application based off of the [2048](https://github.com/gabrielecirulli/2048) created by [Gabriele Circulli](https://github.com/gabrielecirulli) on the App Store. During my Web Development Bootcamp @ Brainstation, I played this game way too much during my breaks and maybe during lectures as well... 
 
 ## Built With:
 
@@ -43,7 +43,14 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Documentation to Libraries & Frameworks
+* [ReactJS](https://reactjs.org/)
+* [ElectronJS](https://www.electronjs.org/)
+* [SASS](https://sass-lang.com/documentation/)
+* [NodeJS](https://nodejs.org/en/docs/)
+* [KnexJS](http://knexjs.org/)
+* [SQLite](https://www.sqlite.org/index.html)
+* [Bluebird](http://bluebirdjs.com/docs/getting-started.html)
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
