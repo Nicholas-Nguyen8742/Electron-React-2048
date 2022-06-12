@@ -54,4 +54,4 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## Resources Used in the Creation of this Application
 * [Favicon.io](https://favicon.io/) - Favion convertor to create various png and ico formatted files. 
-
+* [Clear Sans Font](https://github.com/intel/clear-sans) - Downloaded files for font files used from this github repository by [Intel Corporation](https://github.com/intel).
