@@ -1,12 +1,3 @@
-/*ClearFix Mixin*/
-@mixin clearfix {
-  &:after {
-    content: "";
-    display: block;
-    clear: both;
-  }
-}
-
 /*Paragraph Tag Styling Mixin*/
 @mixin P-Text {
   margin-top: 0;

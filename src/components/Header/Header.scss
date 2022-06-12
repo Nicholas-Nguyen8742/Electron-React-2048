@@ -2,18 +2,19 @@
 @use "../../styles/partials/mixins" as *;
 
 .header {
-  @include clearfix;
+  display: flex;
+
   &__logo {
     height: 5rem;
     width: 5rem;
   }
   &__scores {
-    float: right;
+    display: flex;
     text-align: right;
+    width: 100%;
     &-current,
     &-best {
       position: relative;
-      display: inline-block;
       background: $BG-Cell;
       padding: 15px 25px;
       font-size: $height;
