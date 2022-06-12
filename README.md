@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# 2048 Game w/ ReactJS & ElectronJS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An electron wrapped react application for the game 2048 to be used as a cross-platform desktop application based off of the [2048](https://github.com/gabrielecirulli/2048) created by [Gabriele Circulli](https://github.com/gabrielecirulli) on the App Store. During my Web Development Bootcamp @ Brainstation, I played this game way too much during my breaks and maybe during lectures as well... 
 
 ## Built With:
 
