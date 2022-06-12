@@ -7,6 +7,13 @@
   }
 }
 
+/*Paragraph Tag Styling Mixin*/
+@mixin P-Text {
+  margin-top: 0;
+  margin-bottom: 10px;
+  line-height: 1.65;
+}
+
 /*Exponent*/
 /*From: https://github.com/Team-Sass/Sassy-math/blob/master/sass/math.scss#L36*/
 
