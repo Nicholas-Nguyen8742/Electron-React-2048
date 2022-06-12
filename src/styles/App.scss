@@ -1,0 +1,19 @@
+@use './partials/mixins' as *;
+@use './partials/variables' as *;
+@use './partials/typography' as *;
+
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: $font-family;
+    color: $Primary-Black;
+}
+
+main {
+    background-color: $Secondary-Gray;
+}
