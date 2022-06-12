@@ -1,0 +1,14 @@
+@use '../../styles/partials/variables' as *;
+@use '../../styles/partials/mixins' as *;
+
+.header {
+    @include clearfix;
+    &__title {
+        font-size: 5rem;
+        font-weight: bold;
+        margin: 0;
+        display: block;
+        float: left;
+    }
+}
+
