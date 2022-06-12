@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react,electron,sass,sqlite,node" />
+    <img src="https://skillicons.dev/icons?i=react,electron,html,js,sass,node,sqlite" />
   </a>
 </p>
 
