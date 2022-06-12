@@ -19,3 +19,8 @@ html, body {
 main {
     background-color: $BG-Body;
 }
+
+.container {
+    width: $Field-Width;
+    margin: 0 auto;
+}

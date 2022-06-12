@@ -1,12 +1,12 @@
-import './styles/App.scss';
-import React from 'react';
+import "./styles/App.scss";
+import React from "react";
+import Header from "./components/Header/Header";
 
 export default function App() {
-
   return (
-    <main>
-    
-    </main>
+    <div className="container">
+      <Header />
+      <main></main>
+    </div>
   );
 }
-

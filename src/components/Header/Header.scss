@@ -1,0 +1,50 @@
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+
+.header {
+  @include clearfix;
+  &__title {
+    font-size: 5rem;
+    font-weight: bold;
+    margin: 0;
+    display: block;
+    float: left;
+  }
+  &__scores {
+    float: right;
+    text-align: right;
+    &-current,
+    &-best {
+      position: relative;
+      display: inline-block;
+      background: $BG-Cell;
+      padding: 15px 25px;
+      font-size: $height;
+      height: $height;
+      line-height: $height + 22px;
+      font-weight: bold;
+      border-radius: 3px;
+      color: white;
+      margin-top: 8px;
+      text-align: center;
+
+      &:after {
+        position: absolute;
+        width: 100%;
+        top: 10px;
+        left: 0;
+        text-transform: uppercase;
+        font-size: 13px;
+        line-height: 13px;
+        text-align: center;
+        color: $Tile-Color;
+      }
+    }
+    &-current {
+        content: 'Score';
+    }
+    &-best {
+        content: 'Best';
+    }
+  }
+}
