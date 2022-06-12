@@ -1,6 +1,6 @@
 /*Background Colors*/
 $BG-Body: #faf8ef;
-$BG-Cell: #bbad9f;
+$BG-Cell: #bbad90;
 // $cell_color: #ccc1b3;
 
 /*Font*/
@@ -22,3 +22,22 @@ $Color-Plus2048: #3d3a32;
 
 /*Text Colors*/
 $Text-Color: #776E65;
+$Text-Bright: #f9f6f2;
+
+/*Tile Colors*/
+$Tile-Color: #eee4da;
+$Tile-Gold: #edc22e;
+$Tile-Glow: lighten($Tile-Gold, 15%);
+
+/*Score Container Height*/
+$height: 25px;
+
+/*Grid Styling*/
+$Field-Width: 500px;
+$Grid-Spacing: 15px;
+$Grid-Row: 4;
+$Tile-Size: calc(($Field-Width - $Grid-Spacing * ($Grid-Row + 1)) / $Grid-Row);
+$Tile-Border-Radius: 3px;
+
+/*Transition Speed*/
+$Transition-Speed: 100ms;
