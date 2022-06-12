@@ -2,13 +2,9 @@ import "./Scoreboard.scss";
 import React from "react";
 import logo from "../../assets/images/2048_logo.png";
 
-export default function Scoreboard() {
-  const [board, setBoard] = useState(new Board());
-  
-  const resetGame = () => {
-    setBoard(new Board());
-  };
-  
+export default function Scoreboard({ reset }) {
+
+
   return (
     <section className="header">
       <img
@@ -25,7 +21,7 @@ export default function Scoreboard() {
           <h4 className="header__scores__title">Best</h4>
           <h3>0</h3>
         </article>
-        <button className="header__button-new header__button">NEW</button>
+        <button className="header__button-new header__button" onClick={reset}>NEW</button>
         <button className="header__button-undo header__button">UNDO</button>
       </div>
     </section>

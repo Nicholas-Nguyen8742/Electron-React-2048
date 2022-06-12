@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-export default function useEvent(event, handler, passive = false) {
+export function useEvent(event, handler, passive = false) {
   useEffect(() => {
     window.addEventListener(event, handler, passive);
 
