@@ -2,9 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Built With:
 
-In the project directory, you can run:
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=react,electron,sass,sqlite,node" />
+  </a>
+</p>
 
 ### `npm start`
 
