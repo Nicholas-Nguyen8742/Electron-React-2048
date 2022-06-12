@@ -6,9 +6,9 @@ const path = require('path')
 function createWindow () {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
-    width: 500,
+    width: 475,
     height: 740,
-    minWidth: 500,
+    minWidth: 475,
     minHeight: 740,
     resizable: false,
     icon: path.join(__dirname, 'public/favicon.ico'),
