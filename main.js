@@ -6,11 +6,15 @@ const path = require('path')
 function createWindow () {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
-    width: 800,
-    height: 600,
+    width: 530,
+    height: 740,
+    minWidth: 530,
+    minHeight: 740,
+    resizable: false,
+    icon: path.join(__dirname, 'public/favicon.ico'),
     webPreferences: {
-      // preload: path.join(__dirname, 'preload.js'),
-      // nodeIntegration: true
+      preload: path.join(__dirname, 'public/index.html'),
+      nodeIntegration: true
     }
   })
 

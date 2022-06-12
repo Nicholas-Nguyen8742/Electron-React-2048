@@ -1,33 +1,25 @@
-@use 'mixins' as *;
+
 
 @font-face {
-    font-family: 'Roboto';
-    src: url('../../assets/fonts/Roboto-Light.woff2'),
-        url('../../assets/fonts/Roboto-Light.woff');
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Roboto';
-    src: url('../../assets/fonts/Roboto-Regular.woff2'),
-        url('../../assets/fonts/Roboto-Regular.woff');
+    font-family: 'ClearSans';
+    src: url('../../assets/fonts/ClearSans-Regular.woff2'),
+        url('../../assets/fonts/ClearSans-Regular.woff');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Roboto';
-    src: url('../../assets/fonts/Roboto-Medium.woff2'),
-        url('../../assets/fonts/Roboto-Medium.woff');
+    font-family: 'ClearSans';
+    src: url('../../assets/fonts/ClearSans-Medium.woff2'),
+        url('../../assets/fonts/ClearSans-Medium.woff');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Roboto';
-    src: url('../../assets/fonts/Roboto-Bold.woff2'),
-        url('../../assets/fonts/Roboto-Bold.woff');
+    font-family: 'ClearSans';
+    src: url('../../assets/fonts/ClearSans-Bold.woff2'),
+        url('../../assets/fonts/ClearSans-Bold.woff');
     font-weight: 700;
     font-style: normal;
 }
