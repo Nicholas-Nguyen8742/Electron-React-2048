@@ -6,7 +6,8 @@ import InstructionsSection from "./components/InstructionsSection/InstructionsSe
 import Gameboard from "./components/GameBoard/Gameboard";
 
 
-export default function App() {
+export const App = () => {
+
   return (
     <main className="container">
       <DarkToggle />

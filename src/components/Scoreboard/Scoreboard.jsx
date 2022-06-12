@@ -3,6 +3,12 @@ import React from "react";
 import logo from "../../assets/images/2048_logo.png";
 
 export default function Scoreboard() {
+  const [board, setBoard] = useState(new Board());
+  
+  const resetGame = () => {
+    setBoard(new Board());
+  };
+  
   return (
     <section className="header">
       <img
