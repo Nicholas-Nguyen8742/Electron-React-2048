@@ -31,3 +31,6 @@ main {
 p {
   @include P-Text;
 }
+section {
+  padding: 0 1rem;
+}

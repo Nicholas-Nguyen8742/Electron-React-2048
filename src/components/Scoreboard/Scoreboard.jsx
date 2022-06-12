@@ -1,10 +1,10 @@
-import "./Header.scss";
+import "./Scoreboard.scss";
 import React from "react";
 import logo from "../../assets/images/2048_logo.png";
 
-export default function Header() {
+export default function Scoreboard() {
   return (
-    <header className="header">
+    <section className="header">
       <img
         className="header__logo"
         src={logo}
@@ -22,6 +22,6 @@ export default function Header() {
         <button className="header__button-new header__button">NEW</button>
         <button className="header__button-undo header__button">UNDO</button>
       </div>
-    </header>
+    </section>
   );
 }
