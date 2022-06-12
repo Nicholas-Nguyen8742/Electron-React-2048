@@ -6,10 +6,10 @@ const path = require('path')
 function createWindow () {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
-    width: 600,
-    height: 800,
-    minWidth: 600,
-    minHeight: 800,
+    width: 500,
+    height: 740,
+    minWidth: 500,
+    minHeight: 740,
     resizable: false,
     icon: path.join(__dirname, 'public/favicon.ico'),
     // webPreferences: {
