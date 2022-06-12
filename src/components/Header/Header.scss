@@ -3,12 +3,9 @@
 
 .header {
   @include clearfix;
-  &__title {
-    font-size: 5rem;
-    font-weight: bold;
-    margin: 0;
-    display: block;
-    float: left;
+  &__logo {
+    height: 5rem;
+    width: 5rem;
   }
   &__scores {
     float: right;
