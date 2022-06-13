@@ -1,0 +1,70 @@
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+
+.header {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 3px;
+  color: $Text-Bright;
+  width: 100%;
+  margin-top: 4px;
+  &__logo {
+    height: 10rem;
+    width: 10rem;
+  }
+  &__scores {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-radius: 3px;
+    color: $Text-Bright;
+    width: 100%;
+    &-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: $Color-Plus2048;
+      border-radius: 3px;
+      color: $Text-Bright;
+      position: relative;
+      box-sizing: border-box;
+      width: 92px;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+      &:nth-child(1) {
+        order: 1;
+        width: 40%;
+        margin-left: 1rem;
+      }
+      &:nth-child(2) {
+        order: 2;
+        width: 40%;
+      }
+    }
+    &__title {
+      color: rgba($Text-Bright, 0.75);
+    }
+  }
+  &__button {
+    background-color: $Color-64;
+    border: none;
+    color: $Text-Bright;
+    padding: 1rem;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    border-radius: 3px;
+    &-new {
+      order: 3;
+      width: 40%;
+      margin-left: 1rem;
+    }
+    &-undo {
+      order: 4;
+      width: 40%;
+    }
+  }
+}

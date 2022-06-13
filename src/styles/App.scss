@@ -1,26 +1,61 @@
-@use './partials/variables' as *;
-@use './partials/typography' as *;
+@use "./partials/variables" as *;
+@use "./partials/typography" as *;
+@use "./partials/mixins" as *;
 
-
-*, ::before, ::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-html, body {
-    margin: 0;
-    padding: 0;
-    font-family: $Font-Family;
-    color: $Text-Color;
-    font-size: 1.125rem;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $Font-Family;
+  color: $Text-Color;
+  font-size: 1.125rem;
 }
 
 main {
-    background-color: $BG-Body;
+  background-color: $BG-Body;
 }
 
 .container {
-    width: $Field-Width;
-    margin: 0 auto;
+  width: 100vw;
+  height: 100vh;
+}
+
+p {
+  @include P-Text;
+}
+section {
+  padding: 0 1rem;
+}
+
+.gameboard {
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: grid;
+  width: 360px;
+  height: 360px;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  background-color: rgb(187, 173, 160);
+  border-radius: 3px;
+  border: 8px solid rgb(187, 173, 160);
+  &-wrapper {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      background-color: rgb(255, 255, 255);
+      border-radius: 3px;
+      color: rgb(255, 255, 255);
+      position: relative;
+      margin: 1rem;
+  }
 }

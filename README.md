@@ -6,7 +6,7 @@ An [electron](https://www.electronjs.org/) wrapped [react](https://reactjs.org/)
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react,electron,html,js,sass,nodejs,sqlite" />
+    <img src="https://skillicons.dev/icons?i=react,electron,html,js,sass,nodejs" />
   </a>
 </p>
 
@@ -49,7 +49,6 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 * [SASS](https://sass-lang.com/documentation/)
 * [NodeJS](https://nodejs.org/en/docs/)
 * [KnexJS](http://knexjs.org/)
-* [SQLite](https://www.sqlite.org/index.html)
 * [Bluebird](http://bluebirdjs.com/docs/getting-started.html)
 
 ## Resources Used in the Creation of this Application

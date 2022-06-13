@@ -1,10 +1,8 @@
-/*ClearFix Mixin*/
-@mixin clearfix {
-  &:after {
-    content: "";
-    display: block;
-    clear: both;
-  }
+/*Paragraph Tag Styling Mixin*/
+@mixin P-Text {
+  margin-top: 0;
+  margin-bottom: 10px;
+  line-height: 1.65;
 }
 
 /*Exponent*/
