@@ -1,3 +1,4 @@
+
 @for $row from 0 through 3 {
     @for $column from 0 through 3 {
       .position_#{$row}_#{$column}:not(.isMoving) {

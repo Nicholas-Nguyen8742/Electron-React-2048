@@ -1,11 +1,18 @@
- body {
+@use "./styles/partials/variables" as *;
+@use "./styles/partials/typography" as *;
+
+
+
+html,
+body,
+#root {
     display: flex;
-    background-color: #664d8f;
+    background-color: #f0cbc2;
     flex-direction: column;
     justify-content: center;
     align-content: center;
     align-items: center;
-    font-family: "Clear Sans", sans-serif;
+    font-family: "ClearSans", sans-serif;
     font-size: 21px;
   }
   
@@ -21,7 +28,7 @@
     width: 440px;
     height: 440px;
     padding: 5px;
-    background-color: #57407c;
+    background-color: #eb8258;
     border-radius: 7px;
     outline: none;
     position: relative;
@@ -41,15 +48,15 @@
   }
   
   .resetButton {
-    background-color: #3d2963;
-    color: rgba(255, 255, 255, 0.5);
+    background-color: #eb8258;
+    color: rgba(0, 0, 0, 0.5);
     cursor: pointer;
     font-size: 25px;
     padding: 10px 20px;
     border-radius: 7px;
     transition: color 0.3s ease, background-color 0.3s ease;
     &:hover {
-      background-color: #d3386a;
+      background-color: #741919;
       color: rgba(255, 255, 255, 1);
     }
   }
@@ -59,8 +66,8 @@
   }
   
   .score-box {
-    background-color: #3d2963;
-    color: rgba(255, 255, 255, 0.5);
+    background-color: #eb8258;
+    color: rgba(0, 0, 0, 0.5);
     min-width: max-content;
     padding: 5px 15px;
     margin-right: 4px;
@@ -81,7 +88,7 @@
     border-radius: 7px;
     font-family: "Clear Sans";
     color: #766;
-    background-color: #3d2963;
+    background-color: #f1eee8;
   }
   
   .tile0 {
@@ -89,46 +96,46 @@
   }
   
   .tile2 {
-    background-color: #eee;
+    background-color: $Color-2;
 
   }
   
   .tile4 {
-    background-color: #eec;
+    background-color: $Color-4;
   }
   
   .tile8 {
-    background-color: #ffecff;
+    background-color: $Color-8;
   }
   
   .tile16 {
-    color: #ffe;
+    background-color: $Color-16;
   }
   
   .tile32 {
-    color: #ffe;
+    background-color: $Color-32;
   }
   
   .tile64 {
-    color: #ffe;
+    background-color: $Color-64;
   }
   
   .tile128 {
-    color: #ffe;
+    background-color: $Color-128;
   }
   
   .tile256 {
-    color: #ffe;
+    background-color: $Color-256;
     font-size: 45px;
   }
   
   .tile512 {
-    color: #ffe;
+    background-color: $Color-512;
     font-size: 45px;
   }
   
   .tile1024 {
-    color: #fff;
+    background-color: $Color-1024;
     font-size: 35px;
   }
   
@@ -136,7 +143,7 @@
     position: absolute;
     background-size: contain;
     padding: 0px;
-    color: #fff;
+    background-color: $Color-2048;
     font-size: 35px;
     background-repeat: no-repeat;
     top: 120px;
