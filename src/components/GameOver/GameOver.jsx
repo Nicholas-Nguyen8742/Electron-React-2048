@@ -1,4 +1,4 @@
-
+import logo from '../../assets/images/logo.png'
 import React from "react";
 
 const GameOver = ({ onRestart, board }) => {
@@ -7,7 +7,8 @@ const GameOver = ({ onRestart, board }) => {
   } else if (board.hasLost()) {
     return (
       <div className="gameOver" onClick={onRestart}>
-        <img
+        <img className='gameOver__img'
+          src={logo}
           alt="Try Again"
           style={{
             width: "100%",
@@ -15,7 +16,6 @@ const GameOver = ({ onRestart, board }) => {
             cursor: "pointer",
           }}
         />
-        💩💩💩
       </div>
     );
   }

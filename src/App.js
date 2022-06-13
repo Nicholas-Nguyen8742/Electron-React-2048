@@ -85,9 +85,9 @@ const App = () => {
         </div>
         <div>
           <br />
-          🚀 Use Arrow Keys to move the tiles.
+           - Use Arrow Keys to move the tiles.
           <br />
-          🚀 Press Key N for New Game.
+           - Press Key N for New Game.
         </div>
       </div>
     );

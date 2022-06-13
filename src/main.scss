@@ -227,6 +227,10 @@ body,
     height: 440px;
     z-index: 100;
     text-align: center;
+
+    &__img{
+        border-radius: 50%;
+    }
   }
   
   .overlay .message {
