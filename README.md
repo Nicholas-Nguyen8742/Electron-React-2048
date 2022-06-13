@@ -4,8 +4,8 @@ An [electron](https://www.electronjs.org/) wrapped [react](https://reactjs.org/)
 
 ## Contributors
 
-* [Octavio Segovia](https://github.com/ocki982)
-* [Nicholas Nguyen](https://github.com/Nicholas-Nguyen8742)
+- [Octavio Segovia](https://github.com/ocki982)
+- [Nicholas Nguyen](https://github.com/Nicholas-Nguyen8742)
 
 ## Built With:
 
