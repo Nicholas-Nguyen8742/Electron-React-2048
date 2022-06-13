@@ -5,21 +5,22 @@ An [electron](https://www.electronjs.org/) wrapped [react](https://reactjs.org/)
 ## Contributors
 
 <p align="center">
-  <h3 text-align="center">Octavio Segovia</h3>
-  <a href="https://github.com/ocki982">
-    <img src="https://avatars.githubusercontent.com/u/68573345?v=4" border-radius="50%" />
-  </a>
+  <div>
+    <h3 text-align="center">Octavio Segovia</h3>
+    <a href="https://github.com/ocki982">
+      <img src="https://avatars.githubusercontent.com/u/68573345?v=4" border-radius="50%" width="3rem" height="3rem"/>
+    </a>
+  </div>
+  <div>
+    <h3 text-align="center">Nicholas Nguyen</h3>
+    <a href="https://github.com/Nicholas-Nguyen8742">
+      <img src="https://avatars.githubusercontent.com/u/97898047?s=400&u=8bb274c76cdebc7cddf33b3981a0bb8a9eb6cd8d&v=4" border-radius="50%"  width="3rem" height="3rem" />
+    </a>
+  </div>
 </p>
 
-<p align="center">
-  <h3 text-align="center">Nicholas Nguyen</h3>
-  <a href="https://github.com/Nicholas-Nguyen8742">
-    <img src="https://avatars.githubusercontent.com/u/97898047?s=400&u=8bb274c76cdebc7cddf33b3981a0bb8a9eb6cd8d&v=4" border-radius="50%" />
-  </a>
-</p>
-
-* [Octavio Segovia](https://github.com/ocki982)
-* [Nicholas Nguyen](https://github.com/Nicholas-Nguyen8742)
+- [Octavio Segovia](https://github.com/ocki982)
+- [Nicholas Nguyen](https://github.com/Nicholas-Nguyen8742)
 
 ## Built With:
 
