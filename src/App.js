@@ -58,9 +58,22 @@ const App = () => {
       <InstructionsSection />
       <div className="gamboard-wrapper">
         <section className="gameboard">
-          {cells}
-          {tiles}
-            
+          <GameCell />
+          <GameCell />
+          <GameCell />
+          <GameCell />
+          <GameCell />
+          <GameCell />
+          <GameCell />
+          <GameCell />
+          <GameCell />
+          <GameCell />
+          <GameCell />
+          <GameCell />
+          <GameCell />
+          <GameCell />
+          <GameCell />
+          <GameCell />
         </section>
       </div>
     </main>
