@@ -1,4 +1,5 @@
 # 2048 Game w/ ReactJS & ElectronJS
+[![Updated Badge](https://badges.pufler.dev/updated/Nicholas-Nguyen8742/Electron-React-2048)]
 
 An [electron](https://www.electronjs.org/) wrapped [react](https://reactjs.org/) application for the game 2048 to be used as a cross-platform desktop application based off of the [2048](https://github.com/gabrielecirulli/2048) created by [Gabriele Circulli](https://github.com/gabrielecirulli) on the App Store. During my Web Development Bootcamp @ Brainstation, I played this game way too much during my breaks and maybe during lectures as well...
 
